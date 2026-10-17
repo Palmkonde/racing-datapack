@@ -11,3 +11,6 @@ scoreboard players set #100000 race_clock 100000
 execute unless score #per_lap race_clock matches 1.. run scoreboard players set #per_lap race_clock 4
 
 say Race datapack loaded
+
+scoreboard objectives add first_time dummy
+scoreboard objectives add gap dummy
