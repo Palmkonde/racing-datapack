@@ -1,0 +1,1 @@
+execute if score #running race_clock matches 1 run scoreboard players add #time race_clock 1
