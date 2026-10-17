@@ -1,0 +1,3 @@
+$execute if score #finished race_clock matches 1 run tellraw @a [{text:"$(name)",color:"gold",bold:true},{text:" wins the race!",color:"yellow"}]
+$execute if score #finished race_clock matches 1 run scoreboard players display numberformat $(racer) race fixed {text:"Finished  Winner",color:"gold"}
+$execute unless score #finished race_clock matches 1 run scoreboard players display numberformat $(racer) race fixed {text:"Finished  +$(sec).$(tenth)s",color:"gray"}

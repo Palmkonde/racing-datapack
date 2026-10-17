@@ -13,3 +13,5 @@ function race:racers
 
 scoreboard players reset * first_time
 scoreboard players reset * gap
+
+scoreboard players set #finished race_clock 0

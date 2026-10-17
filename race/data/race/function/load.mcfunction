@@ -14,3 +14,8 @@ say Race datapack loaded
 
 scoreboard objectives add first_time dummy
 scoreboard objectives add gap dummy
+
+scoreboard players set #20 race_clock 20
+scoreboard players set #2 race_clock 2
+
+function race:config

@@ -1,0 +1,1 @@
+tellraw @s [{text:"Race settings  ",color:"gold"},{text:"Laps: "},{score:{name:"#laps",objective:"race_clock"}},{text:"   Checkpoints per lap: "},{score:{name:"#per_lap",objective:"race_clock"}}]

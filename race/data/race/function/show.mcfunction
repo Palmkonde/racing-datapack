@@ -1,0 +1,2 @@
+$execute if score $(racer) gap matches 0 run scoreboard players display numberformat $(racer) race fixed {text:"Lap $(lap)/$(laps)  Leader",color:"gold"}
+$execute unless score $(racer) gap matches 0 run scoreboard players display numberformat $(racer) race fixed {text:"Lap $(lap)/$(laps)  +$(sec).$(tenth)s",color:"gray"}
